@@ -32,8 +32,6 @@ class Song
     genre_hash = {}
     g_count = 0 
     @@genres.each {|i| 
-      if 
-      end
     }
     
     
