@@ -32,7 +32,7 @@ class Song
     genre_hash = {}
     g_count = 0 
     @@genres.each {|i| 
-      genre_hash
+      genre_hash[i] = g_count + 1
     }
     
     
