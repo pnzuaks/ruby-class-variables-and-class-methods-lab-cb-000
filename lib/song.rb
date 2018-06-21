@@ -34,13 +34,13 @@ class Song
    
    @@genres.each {|i| genre_hash[i] += 1 }
    
-  a.each do |v|
-  b[v] += 1
-    end
-
-  b.each do |k, v|
-  puts "#{k} appears #{v} times"
-  end
+      @@genres.each do |i|
+      genre_hash[i] += 1
+        end
+    
+      genre_hash.each do |key, val|
+      puts "#{key} appears #{val} times"
+      end
    
     genre_hash.each  { |key, val|
       if genre_hash.key?(key) 
