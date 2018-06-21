@@ -35,11 +35,10 @@ class Song
     genre_hash.each  {|key, val|
       if genre_hash.contains(key) 
         genre_hash[key] = val + 1
-        
       end
     }
    
-    
+    genre_hash
     
   end
   
