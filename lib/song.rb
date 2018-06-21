@@ -31,11 +31,7 @@ class Song
   def self.genre_count
     genre_hash = {}
     g_count = 0 
-    @@genres.each {|i| 
-    if @@genres.contains?(i) 
-      genre_hash[i] = g_count += 1
-    end
-    }
+    @@genres.each {|i| genre_hash[i] = g_count += 1}
     
     
     
