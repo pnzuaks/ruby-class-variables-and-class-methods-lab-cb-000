@@ -30,7 +30,10 @@ class Song
   
   def self.genre_count
     genre_hash = {}
-    @@genres.each {}
+    @@genres.each {|i| 
+      if i.uniq 
+      end
+    }
     
     
   end
